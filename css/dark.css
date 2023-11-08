@@ -1,0 +1,28 @@
+main {
+    background-color: #A5C9CA;
+}
+
+.sidebar{
+    background-color: #2C3333;
+}
+
+.searchbar {
+    background-color: #2C3333;
+}
+
+.theme--button {
+    background-color: #395b64;
+    justify-content: flex-end;
+}
+
+.theme--button > div {
+    background-color: #2C3333;
+}
+
+.theme--button > div > div {
+    background-image: url("/icons/light/sun.png");
+}
+
+.profile {
+    background-color: #2C3333;
+}

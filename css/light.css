@@ -1,0 +1,28 @@
+main {
+    background-color: #CDF5FD;
+}
+
+.sidebar{
+    background-color: #00A9FF;
+}
+
+.searchbar {
+    background-color: #00A9FF;
+}
+
+.theme--button {
+    background-color: #89cff3;
+    justify-content: flex-start;
+}
+
+.theme--button > div {
+    background-color: #00A9FF;
+}
+
+.theme--button > div > div {
+    background-image: url("/icons/light/moon.png");
+}
+
+.profile {
+    background-color: #00A9FF;
+}

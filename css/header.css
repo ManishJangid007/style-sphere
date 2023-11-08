@@ -1,0 +1,117 @@
+.header {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.searchbar {
+    margin-left: 15px;
+    width: 25%;
+    height: 70%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.searchbar > input {
+    margin-left: 12px;
+    border: none;
+    background-color: transparent;
+    color: #E2E2E2;
+    text-align: center;
+}
+
+.searchbar > input::placeholder {  
+    color: #E2E2E2;
+}
+.searchbar > input:focus {  
+    outline: none;
+}
+
+.mic {
+    display: flex;
+    margin-right: 12px;
+    align-items: center;
+}
+
+.mic > div {
+    width: 4px;
+    border-radius: 8px;
+    margin: 0px 1px;
+    background-color: #E2E2E2;
+}
+
+.mic > div:nth-child(1) {
+    height: 14px;
+}
+.mic > div:nth-child(2) {
+    height: 18px;
+}
+.mic > div:nth-child(3) {
+    height: 15px;
+}
+
+.theme--button {
+    margin-left: auto;
+    height: 70%;
+    width: 75px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.theme--button > div {
+    height:  27px;
+    width: 27px;
+    margin: 0px 4px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.theme--button > div > div {
+    height: 95%;
+    width: 95%;
+    background-position: center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+
+.header > img {
+    width: auto;
+    height: auto;
+    max-width: 26px;
+    max-height: 26px;
+    margin: 0px 15px;
+}
+
+.profile {
+    height: 70%;
+    width: fit-content;
+    margin-right: 15px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #E2E2E2;
+    font-weight: 500;
+}
+
+.profile > div {
+    height: 27px;
+    width: 27px;
+    border-radius: 100%;
+    background-image: url("/images/jassica.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 5px;
+}
+
+.profile > p {
+    margin:0px 12px;
+}
