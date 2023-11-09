@@ -46,11 +46,23 @@
 .left--pfu--card > div {
     width: 100%;
     height: 55%;
-    background-image: url("/images/jassica.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     border-radius: 15px 15px 0px 0px;
+}
+
+.left--pfu--card:nth-child(1) > div {
+    background-image: url("/images/t-shirt.jpg");
+}
+.left--pfu--card:nth-child(2) > div {
+    background-image: url("/images/hoddie.jpg");
+}
+.left--pfu--card:nth-child(3) > div {
+    background-image: url("/images/danim.jpg");
+}
+.left--pfu--card:nth-child(4) > div {
+    background-image: url("/images/sneakers.jpg");
 }
 
 .left--pfu--card > p {
@@ -109,10 +121,19 @@
     width: 60px;
     height: 60px;
     border-radius: 10px;
-    background-image: url("/images/jassica.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.left--mo--card:nth-child(1) > .left--mo--card--img {
+    background-image: url("/images/shoes.jpg");
+}
+.left--mo--card:nth-child(2) > .left--mo--card--img {
+    background-image: url("/images/watch.jpg");
+}
+.left--mo--card:nth-child(3) > .left--mo--card--img {
+    background-image: url("/images/glasses.jpg");
 }
 
 .left--mo--status {
