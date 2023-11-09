@@ -9,16 +9,13 @@
 
 .discount {
     width: 95%;
-    height: 45%;
+    height: 35%;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #89CFF3;
     margin-top: 54px;
-    padding: 30px 0px;
-    color: #2C3333;
 }
 
 .discount > h3 {
@@ -33,4 +30,99 @@
 
 .discount > button {
     margin-bottom: 20px;
+}
+
+.trends {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 95%;
+    height: 58%;
+}
+
+.trends--heading {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trends--heading > h3 {
+    color: #2C3333;
+}
+
+.trends--heading > select {
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 4px;
+    font-size: x-small;
+}
+
+.trends--column {
+    width: 100%;
+    height: 77%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trends--column--popularity {
+    width: 90%;
+    height: 80%;
+    border-radius: 12px;
+    border: 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.trends--column--popularity p {
+    font-size: small;
+    font-weight: 500;
+}
+
+.bar {
+    margin-top: auto;
+    margin-bottom: 5px;
+    width: 20px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.trends--column--popularity > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 80%;
+}
+
+.chart--icon {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+.trends-shirt > .bar {
+    height: 40%;
+}
+
+.trends-pants > .bar {
+    height: 50%;
+}
+
+.trends-shoes > .bar {
+    height: 70%;
+}
+
+.trends-glasses > .bar {
+    height: 35%;
+}
+
+.trends-watches > .bar {
+    height: 60%;
 }

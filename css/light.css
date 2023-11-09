@@ -26,3 +26,53 @@ main {
 .profile {
     background-color: #00A9FF;
 }
+
+/* new css */
+
+button {
+	background-color: #00A9FF;
+	color: #E2E2E2;
+}
+
+.discount {
+    background-color: #89CFF3;
+    color: #2C3333;
+}
+
+.trends--heading > select {
+    border-color: #00A9FF;
+    color: #00A9FF;
+}
+
+.trends--column {
+    background-color: #89CFF3;
+}
+
+.trends--column--popularity {
+    border-color: #CDF5FD;
+}
+
+.trends--column--popularity p {
+    color: #2C3333;
+}
+
+.bar {
+    background-color: #00A9FF;
+}
+
+.trends-shirt > .chart--icon {
+    background-image: url("/icons/dark/tshirt.png");
+}
+
+.trends-pants > .chart--icon {
+    background-image: url("/icons/dark/pants.png");
+}
+.trends-shoes > .chart--icon {
+    background-image: url("/icons/dark/shoes.png");
+}
+.trends-glasses > .chart--icon {
+    background-image: url("/icons/dark/glasses.png");
+}
+.trends-watches > .chart--icon {
+    background-image: url("/icons/dark/watch.png");
+}
