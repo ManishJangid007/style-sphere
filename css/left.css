@@ -24,7 +24,6 @@
 }
 .left--pfu--first > p {
     margin: 15px;
-    color: #00A9FF;
     font-weight: 500;
 }
 
@@ -38,7 +37,6 @@
     height: 190px;
     width: 22%;
     border-radius: 15px;
-    background-color: #89CFF3;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,7 +54,6 @@
 }
 
 .left--pfu--card > p {
-    color: #2C3333;
     font-weight: 500;
     margin-top: auto;
 }
@@ -87,7 +84,6 @@
 }
 
 .left--mo--first > p {
-    color: #00A9FF;
     font-weight: 500;
     margin: 15px;
 }
@@ -96,7 +92,6 @@
     height: 80%;
     width: 95%;
     border-radius: 15px;
-    background-color: #89CFF3;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -133,7 +128,6 @@
 .left--mo--status > p {
     margin: 5px 0px;
     font-weight: 500;
-    color: #2C3333;
 }
 
 .status--text {
@@ -158,12 +152,10 @@
     width: 100%;
     height: 15px;
     border-radius: 10px;
-    background-color: #CDF5FD;
     position: absolute;
 }
 
 .progress > div {
-    background-color: #00A9FF;
     height: 100%;
     border-radius:10px;
 }

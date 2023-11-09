@@ -76,3 +76,35 @@ button {
 .trends-watches > .chart--icon {
     background-image: url("/icons/dark/watch.png");
 }
+
+.left--pfu--first > p {
+    color: #00A9FF;
+}
+
+.left--pfu--card {
+    background-color: #89CFF3;
+}
+
+.left--pfu--card > p {
+    color: #2C3333;
+}
+
+.left--mo--first > p {
+    color: #00A9FF;
+}
+
+.left--mo--cards {
+    background-color: #89CFF3;
+}
+
+.left--mo--status > p {
+    color: #2C3333;
+}
+
+.progress {
+    background-color: #CDF5FD;
+}
+
+.progress > div {
+    background-color: #00A9FF;
+}
