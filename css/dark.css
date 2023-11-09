@@ -26,3 +26,83 @@ main {
 .profile {
     background-color: #2C3333;
 }
+
+button {
+	background-color: #2C3333;
+}
+
+.discount {
+    background-color: #395b64;
+    color: #E2E2E2;
+}
+
+.trends--heading > select {
+    border-color: #2C3333;
+    color: #2C3333;
+}
+
+.trends--column {
+    background-color: #395b64;
+}
+
+.trends--column--popularity {
+    border-color: #A5C9CA;
+}
+
+.trends--column--popularity p {
+    color: #E2E2E2;
+}
+
+.bar {
+    background-color: #2C3333;
+    border: 0.05em solid #E2E2E2;
+}
+
+.trends-shirt > .chart--icon {
+    background-image: url("/icons/light/tshirt.png");
+}
+
+.trends-pants > .chart--icon {
+    background-image: url("/icons/light/pants.png");
+}
+.trends-shoes > .chart--icon {
+    background-image: url("/icons/light/shoes.png");
+}
+.trends-glasses > .chart--icon {
+    background-image: url("/icons/light/glasses.png");
+}
+.trends-watches > .chart--icon {
+    background-image: url("/icons/light/watch.png");
+}
+
+.left--pfu--first > p {
+    color: #2C3333;
+}
+
+.left--pfu--card {
+    background-color: #395b64;
+}
+
+.left--pfu--card > p {
+    color: #E2E2E2;
+}
+
+.left--mo--first > p {
+    color:#2C3333 ;
+}
+
+.left--mo--cards {
+    background-color:#395b64;
+}
+
+.left--mo--status > p {
+    color: #E2E2E2;
+}
+
+.progress {
+    background-color:#A5C9CA ;
+}
+
+.progress > div {
+    background-color: #2C3333;
+}
